@@ -36,7 +36,7 @@ int domath (int array[], int size) {
                 if(array[i] > max) max = array[i];
                 printf("\nThe highest number (maximum) in this array is %d\n", max);
 	
-	printf("\nThe difference between these two numbers is");
+	printf("\nThe difference between these two numbers is ");
 	int absolutediff = 0; 
 	absolutediff = max - min; 
 	if(absolutediff < 0) absolutediff = absolutediff * (-1); 
